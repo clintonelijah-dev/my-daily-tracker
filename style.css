@@ -1,0 +1,157 @@
+/*General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #333;
+
+}
+
+/* Header */
+header {
+    background: #172554;
+    color: white;
+    text-align:center;
+    padding: 30px;
+
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 30px auto;
+    padding: 20px;
+
+}
+
+/* Dashboard */
+dashboard {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.8);
+
+}
+/* Activity section */
+.activity-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0.08);
+}
+
+.activity-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background: #1d4ed8;
+}
+
+/* progress section */
+
+.progress-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0.08)
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.date-time {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#currentDate {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#currentTime {
+    color: #bfdbfe;
+}
+icon-button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+edit-button{
+    color: #2563eb;
+}
+
+.delete-button {
+    color: #dc2626;
+    background: #fee2e2;
+    width: 34px;
+    height: 34px;
+    border-radius: 7px;
+}
+
+.delete-button:hover {
+    background: #fecaca;
+    color: #991b1b;
+    transform: scale(1.1);
+}
+
+.icon-button {
+    background: transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icon-button:hover {
+    background: #f1f5f9;
+}
+
+.edit-button {
+    color: #2563eb;
+}
+
+.delete-button {
+    color: #dc2626;
+}
+
+.icon-button svg {
+    width: 17px;
+    height: 17px;
+}
